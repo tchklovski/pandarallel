@@ -214,7 +214,7 @@ def get_workers_args(
                     ".",
                     " Please also remove all files beginning with 'pandarallel_' in the",
                     "`/dev/shm` directory. If you have troubles with your web browser,",
-                    "these troubles should deseapper after cleaning `/dev/shm`.",
+                    "these troubles should disappear after cleaning `/dev/shm`.",
                 )
             )
             raise OSError(msg)
